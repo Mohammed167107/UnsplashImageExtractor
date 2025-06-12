@@ -23,15 +23,15 @@ Install the required packages:
 ```bash
 pip install requests pillow
 ```
-
-```💻 Usage
+### 💻 Usage
+```usage
 Import and call the function in your script:
 
 from your_script_filename import extract_images_from_unsplash
 
 extract_images_from_unsplash("YOUR_SEARCH_KEYWORD")
 ```
-
+### Example
 ```Example
 extract_images_from_unsplash("water")
 This will:
@@ -42,7 +42,7 @@ Download up to 20 non-premium, full-size images
 
 Save them as .png files in a folder named water in your current working directory
 ```
-
+### Structure
 ```Structure
 📂 water
 ├── a1b2c3d4e5.png
