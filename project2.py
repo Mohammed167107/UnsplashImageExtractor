@@ -51,4 +51,4 @@ def extract_images_from_unsplash(word):
 
     print("Done Extractting...")
 
-extract_images_from_unsplash("GTA")
+extract_images_from_unsplash("sky")
